@@ -23,8 +23,8 @@ Automated tool to unfollow users on Instagram using unofficial API.
 ## ⚙️ Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/instagram-unfollow-tool.git
-cd instagram-unfollow-tool
+git clone https://github.com/vinicezariodev/instagram-unfollow-tool.git
+cd Instagram-Unfollow-Tool
 ```
 
 2. Install dependencies:
@@ -35,7 +35,8 @@ pip install -r requirements.txt
 3. Get your Instagram credentials:
 
     - Login to Instagram in your browser
-    - Open DevTools (F12) → Application → Cookies
+    - Go to your user page
+    - Open DevTools (F12) → Application → Cookies → instagram.com
     - Copy these cookies: sessionid, ds_user_id, and csrftoken
 
 4. Configure the tool:
@@ -44,7 +45,6 @@ pip install -r requirements.txt
 SESSIONID = "your_sessionid_here"
 DS_USER_ID = "your_ds_user_id"
 CSRFTOKEN = "your_csrftoken"
-USER_ID = "your_user_id"
 ```
 
 ## 🚀 Usage
